@@ -1,4 +1,3 @@
-
 # Inventory Vista - Product Management Dashboard
 
 ## Overview
@@ -8,18 +7,21 @@ Inventory Vista is a powerful yet easy-to-use product management dashboard built
 ## Features
 
 ### Product Management
+
 - **View Products**: Browse through your entire inventory with a responsive data table
 - **Add/Edit Products**: Easily update product information through an intuitive modal interface
 - **Delete Products**: Remove single products or perform batch deletions with confirmation safeguards
 - **Multi-select**: Select multiple products for batch operations
 
 ### Advanced Filtering & Sorting
+
 - **Category Filtering**: Filter products by multiple categories (Electronics, Clothing, Food, Furniture, Books)
 - **Stock Availability**: Toggle to view only in-stock products
 - **Search**: Quickly find products with the global search functionality
 - **Sorting**: Sort by name, category, price, or stock levels
 
 ### Dashboard Analytics
+
 - **Inventory Overview**: Get a quick snapshot of your inventory status
 - **Category Distribution**: Visualize product distribution across categories
 - **Stock Alerts**: Easily identify products with low stock
@@ -36,6 +38,7 @@ Inventory Vista is a powerful yet easy-to-use product management dashboard built
 ## Getting Started
 
 ### Prerequisites
+
 - Node.js (v14 or higher)
 - npm or yarn package manager
 
@@ -46,7 +49,7 @@ Inventory Vista is a powerful yet easy-to-use product management dashboard built
 git clone https://github.com/gangaprasadmohite/inventory-vista-manager.git
 
 # Navigate to project directory
-cd inventory-vista
+cd inventory-vista-manager
 
 # Install dependencies
 npm install
@@ -60,7 +63,9 @@ The application will be available at `http://localhost:8080`
 ## Usage Guide
 
 ### Product Table
+
 The product table displays all your inventory items with the following information:
+
 - Product name
 - Category
 - Price
@@ -68,17 +73,21 @@ The product table displays all your inventory items with the following informati
 - Last updated date
 
 ### Adding a Product
+
 1. Click the "Add Product" button above the product table
 2. Fill in the required fields in the modal form
 3. Click "Save" to add the product to your inventory
 
 ### Editing a Product
+
 1. Click the edit icon next to the product you want to modify
 2. Update the information in the modal form
 3. Click "Save" to apply your changes
 
 ### Filtering Products
+
 Use the sidebar filters to:
+
 - Select specific product categories
 - Show only in-stock items
 - Use the search bar in the header to find products by name or description
@@ -86,6 +95,7 @@ Use the sidebar filters to:
 ## Customization
 
 The application is built with modularity in mind, making it easy to extend and customize:
+
 - Add new product categories by updating the product types
 - Customize the filter options to match your business needs
 - Extend the chart components to visualize additional metrics
